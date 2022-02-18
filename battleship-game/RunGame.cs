@@ -10,7 +10,7 @@ namespace battleship_game
      class Battleship
     {
         public int Missiles;
-        public int EnemyBattleship;
+        public int EnemyBattleshipHealth;
         public string[,] boardGrid;
 
         string DisplayInstructions()
@@ -33,7 +33,7 @@ namespace battleship_game
         public WatersOfWar()
         {
 
-            EnemyBattleship = 5;
+            EnemyBattleshipHealth = 5;
             Missiles = 8;
             boardGrid = fillBoard();
 
@@ -41,11 +41,14 @@ namespace battleship_game
             int enemyY = enemyCoords.Next(0, 5);
             int enemyX = enemyCoords.Next(0, 10);
 
-            enemyYa
+            EnemyYPosition5 = enemyY++;
+            EnemyYPosition4 = enemyY++;
+            EnemyYPosition3 = enemyY++;
+            EnemyYPosition2 = enemyY++;
+            EnemyYPosition1 = enemyY++;
+            EnemyXPosition = enemyX;
         }
 
-
-        
 
         public void drawGameBoard()
         {

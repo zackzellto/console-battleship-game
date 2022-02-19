@@ -9,7 +9,7 @@ Battleship is built using the following:
 - C#
 
 ## UI
-![Battleship In Action!](https://github.com/zackzellto/SWAPI/blob/master/swapi-landing-page.png?raw=true)
+![Battleship In Action!](https://github.com/zackzellto/console-battleship-game/blob/master/2022-02-18%2017.41.12.gif)
 
 ## Directions
 

@@ -6,7 +6,8 @@ namespace battleship_game
     {
         static void Main(string[] args)
         {
-            Battleship battleShip = new Battleship()
+            
+            WatersOfWar battleShip = new WatersOfWar();
                 battleShip.startGame();
         }
     }
